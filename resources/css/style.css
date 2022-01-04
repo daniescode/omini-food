@@ -15,9 +15,11 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-.cleafix {zoom: 1;}
 .cleafix {
-  content:var()
+  zoom: 1;
+}
+.cleafix {
+  content: var();
   clear: both;
   display: block;
   height: 0;
